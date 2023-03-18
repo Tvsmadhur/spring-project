@@ -1,21 +1,12 @@
 package com.madhur.learnspring;
 
-public class MarioGame implements GamingConsole {
 
-	public void up()
+
+public class MarioGame implements GameType {
+	
+	public void run()
 	{
-		System.out.println("up");
+		System.out.println("Game is Running");
 	}
-	public void down()
-	{
-		System.out.println("sit down");
-	}
-	public void left()
-	{
-		System.out.println("Go Left");
-	}
-	public void right()
-	{
-		System.out.println("Go Right");
-	}
+
 }
